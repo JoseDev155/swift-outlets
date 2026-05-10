@@ -7,13 +7,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContadorViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var numeroLabel: UILabel!
+
+    var contador = 0
+
+    @IBAction func contarButtonTapped(_ sender: UIButton) {
+        contador += 1
+
+        // El outlet siempre espera un String, así que convertimos el Int
+        numeroLabel.text = String(contador)
+
+        // Ejemplo extra: Cambiar el color del texto si pasa de 10
+        if contador > 10 {
+            numeroLabel.textColor = .red
+        }
     }
 
-
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+        contador = 0
+        numeroLabel.text = "0"
+        numeroLabel.textColor = .black
+    }
 }
 
