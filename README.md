@@ -1,2 +1,11 @@
-# swift-outlets
-(ES) Repositorio de las apps realizadas en la Práctica 2, Guía 4 de DAM2
+# PRÁCTICA 4 - GUÍA 4
+
+Repositorio de apps hechas en Swift, de la `GUÍA DE EJEMPLOS 4 OUTLETS.md`.
+
+## Estructura del repositorio
+
+* [1 - SaludadorApp](./SaludadorApp/SaludadorApp.md)
+* [2 - CambiadorApp](./CambiadorApp/CambiadorApp.md)
+* [3 - ContadorApp](./ContadorApp/ContadorApp.md)
+* [4 - LanzadorApp](./LanzadorApp/LanzadorApp.md)
+* [5 - ValidadorApp](./ValidadorApp/ValidadorApp.md)
