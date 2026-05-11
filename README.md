@@ -1,6 +1,6 @@
 # PRÁCTICA 4 - GUÍA 4
 
-Repositorio de apps hechas en Swift, de la `GUÍA DE EJEMPLOS 4 OUTLETS.md`.
+Repositorio de apps hechas en Swift, de la `GUÍA DE EJEMPLOS 4 OUTLETS.pdf`.
 
 ## Estructura del repositorio
 
