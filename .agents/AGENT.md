@@ -28,7 +28,7 @@ The exercises are:
 ## 5. Example Interaction Style
 If asked to help with the "Contador de Taps" exercise, respond with the exact code snippet for the `@IBOutlet` and `@IBAction`, like so:
 
-\`\`\`swift
+```swift
 import UIKit
 
 class ContadorViewController: UIViewController {
@@ -40,5 +40,5 @@ class ContadorViewController: UIViewController {
         numeroLabel.text = String(contador)
     }
 }
-\`\`\`
+```
 Then, briefly remind the user to connect `numeroLabel` and `contarButtonTapped` in the Storyboard.
